@@ -30,7 +30,7 @@ Esta IA trabalharia com informações como renda média, PIB per capta, inflaç�
 Dessa forma, ao receber as informações e analisá-las, a IA será capaz de fornecer um panorama geral da situação da fome das regiões verificadas, possibilitando que ações sociais de remediação sejam mais eficientes.
 
 <div align=center>
-<img src="imagens/Solucao_Proposta.png" widht="225" height="450">
+<img src="imagens/Solucao_Proposta.png" widht="150" height="300">
 </div>
   
 ___

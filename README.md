@@ -1,4 +1,4 @@
-## Desenvolvimento e Entrega da Global Solution 1º Semestre - Edge Computing and Computer Systems :rooster:
+## Global Solution 1º Semestre - Edge Computing and Computer Systems :rooster:
 ![Badge Concluido](https://img.shields.io/badge/STATUS-CONCLUIDO-GREEN)
 
 **Nomes + RM dos integrantes:**
@@ -17,37 +17,40 @@ O projeto tem como objetivo atuar no problema que nos foi proposto, a fome no mu
 
 Garantir as condições ideais para o consumo, e evitar o desperdício de alimentos, é essencial para, além de combater a fome, proteger a saúde, promover a sustentabilidade, economizar recursos e minimizar o impacto ambiental, e é uma responsabilidade de indivíduos, empresas, governos e toda a sociedade.
 
-<img src="Identificacao_Problema.png">
-
+<div align=center>
+<img src="imagens/Identificacao_Problema.png" widht="225" height="450">
+</div>
+  
 ___
 ### Solução proposta
-
-<img src="Solucao_Proposta.png">
-
 Tendo em mente este problema, desenvolvemosa a seguinte solução: O uso de uma IA generativa capaz de analisar diversos indicadores específicos para dimensionar o déficit alimentar potencial de uma região.
 
 Esta IA trabalharia com informações como renda média, PIB per capta, inflação e desigualdade de renda, providos por órgãos públicos responsáveis por mensurá-los, mas também dados de controle de qualidade de plantio e de estoque, que são obtidos através de sistemas de hardware desenvolvidos através de diversas plataformas e programas, como o Arduino por exemplo.
 
 Dessa forma, ao receber as informações e analisá-las, a IA será capaz de fornecer um panorama geral da situação da fome das regiões verificadas, possibilitando que ações sociais de remediação sejam mais eficientes.
+
+<div align=center>
+<img src="imagens/Solucao_Proposta.png" widht="225" height="450">
+</div>
+  
 ___
 ### Utilização do Arduino:
 Através do Arduino podemos construir circuitos que são capazes de fornecer informações necessárias pela IA em sua análise, como por exemplo:
 
-<div align=left>
-<img src="Arduino_Plantacao.png">
-</div>
+<table>
+  <tr>
+    <td><img src="imagens/Arduino_Plantacao.png"></td>
+    <td>Um sistema de monitoramento de lavouras, construído com um sensor de temperatura e um sensor de umidade do solo, capaz de verificar se o ambiente possui as condições adequadas para o plantio e, consequentemente, se a safra será quantitativa ou não.</td>
+  </tr>
+</table>
 
-<div align=right>
-Um sistema de monitoramento de lavouras, construído com um sensor de temperatura e um sensor de umidade do solo, capaz de verificar se o ambiente possui as condições adequadas para o plantio e, consequentemente, se a safra será quantitativa ou não.
-</div>
+<table>
+  <tr>
+    <td><img src="imagens/Arduino_Estoque.png"></td>
+    <td>Um sistema de verificação de estoque, construído a partir de um sensor de força, que pode mensurar a quantidade, em quilos, de alimentos presentes em uma unidade de depósito, ilustrando assim a capacidade de alimentação desta unidade.</td>
+  </tr>
+</table>
 
-<div align=left>
-<img src="Arduino_Estoque.png">
-</div>
-
-<div align=right>
-Um sistema de verificação de estoque, construído a partir de um sensor de força, que pode mensurar a quantidade, em quilos, de alimentos presentes em uma unidade de depósito, ilustrando assim a capacidade de alimentação desta unidade.
-</div>
 ___
 ### Desenvolvimento do projeto
 O projeto foi desaenvolvido através de pesquisas por métodos de aplicação da tecnologia na solução, ou amenização, do problema da fome. Utilizando outros projetos como referência e coletando dados de outras IAs generativas, fomos capazes de elaborar nosso projeto e idealizar sua aplicação.   
@@ -58,11 +61,11 @@ ___
 
 ### Circuito de Monitoramento de Lavoura :herb:
 
-<img src="Projeto_Tinkercad_Lavoura.png">
+<img src="imagens/Projeto_Tinkercad_Lavoura.png">
 
 Para a montagem física do projeto de monitoramento de lavoura, será necessário utilizar:
-- Plataforma Autodesk Tinkercad (para reproduzir a simulação exibida [nesta imagem](Projeto_Tinkercad_Lavoura.jpg));
-- Programa Arduino IDE (juntamente com o código presente [neste arquivo](Codigo_Arduino_Lavoura.ino) - anexa também sua [versão em txt](Código_Arduino_Lavoura.txt));
+- Plataforma Autodesk Tinkercad (para reproduzir a simulação exibida [nesta imagem](imagens/Projeto_Tinkercad_Lavoura.png));
+- Programa Arduino IDE (juntamente com o código presente [neste arquivo](codigos/Codigo_Arduino_Lavoura.ino) - anexa também sua [versão em txt](codigos/Codigo_Arduino_Lavoura.txt));
 - Kit básico de componentes físicos do Arduino, detalhados abaixo:
 <table>
   <tr>
@@ -107,15 +110,15 @@ Para a montagem física do projeto de monitoramento de lavoura, será necessári
   </tr>
 </table>
 
-Basta agora reproduzir o [modelo do Tinkercad](Projeto_Tinkercad_Lavoura.png) utilizando os combonentes físicos listados. Para execução, é necessário conectar a placa Arduino Uno R3 a um computador via USB, inserir o [código de execução](Codigo_Arduino_Lavoura.ino) no programa Arduino IDE e fazer o upload.
+Basta agora reproduzir o [modelo do Tinkercad](imagens/Projeto_Tinkercad_Lavoura.png) utilizando os combonentes físicos listados. Para execução, é necessário conectar a placa Arduino Uno R3 a um computador via USB, inserir o [código de execução](codigos/Codigo_Arduino_Lavoura.ino) no programa Arduino IDE e fazer o upload.
 
 ### Circuito de Verificação de Estoque :package:
 
-<img src="Projeto_Tinkercad_Estoque.png">
+<img src="imagens/Projeto_Tinkercad_Estoque.png">
 
 Para a montagem física do projeto de verificação de estoque, será necessário utilizar:
-- Plataforma Autodesk Tinkercad (para reproduzir a simulação exibida [nesta imagem](Projeto_Tinkercad_Estoque.jpg));
-- Programa Arduino IDE (juntamente com o código presente [neste arquivo](Codigo_Arduino_Estoque.ino) - anexa também sua [versão em txt](Código_Arduino_Estoque.txt));
+- Plataforma Autodesk Tinkercad (para reproduzir a simulação exibida [nesta imagem](imagens/Projeto_Tinkercad_Estoque.png));
+- Programa Arduino IDE (juntamente com o código presente [neste arquivo](codigos/Codigo_Arduino_Estoque.ino) - anexa também sua [versão em txt](codigos/Codigo_Arduino_Estoque.txt));
 - Kit básico de componentes físicos do Arduino, detalhados abaixo:
 <table>
   <tr>
@@ -156,16 +159,22 @@ Para a montagem física do projeto de verificação de estoque, será necessári
   </tr>
 </table>
 
-Basta agora reproduzir o [modelo do Tinkercad](Projeto_Tinkercad_Estoque.png) utilizando os combonentes físicos listados. Para execução, é necessário conectar a placa Arduino Uno R3 a um computador via USB, inserir o [código de execução](Codigo_Arduino_Estoque.ino) no programa Arduino IDE e fazer o upload.
+Basta agora reproduzir o [modelo do Tinkercad](imagens/Projeto_Tinkercad_Estoque.png) utilizando os combonentes físicos listados. Para execução, é necessário conectar a placa Arduino Uno R3 a um computador via USB, inserir o [código de execução](codigos/Codigo_Arduino_Estoque.ino) no programa Arduino IDE e fazer o upload.
 ___
 ### Pré-requisitos
 Para execução do projeto é necessário conhecimento sobre o uso da plataforma Autodesk Tinkercad, e experiência com o uso do programa Arduino e de seus componentes físicos. É necessário também saber usos básicos da linguagem C++ para entendimento do código e ajustes necesários.
 ___
 ### Resultados esperados e impactos:
-
-<img src="Resultados_Esperados.png">
-
 O objetivo da solução que idealizamos é melhor ilustrar a respeito da situação da fome em diferentes regiões, e informar adequadamente os agentes responsáveis por ajudar nesta causa, como ONGs e órgãos públicos, de modo que as ações sociais voltadas ao problema sejam mais eficientes e, consequentemente, a fome seja combatida de melhor forma, com as regiões mais necessitadas recebendo um auxílio adequado para sua situação
+
+<div align=center>
+<img src="imagens/Resultados_Esperados.png"  widht="225" height="450">
+</div>
+
 ___
-### Video Explicativo
-  [Link para o vídeo explicativo do projeto no Google Drive](https://drive.google.com/file/d/1xf-mtCMv0VZjnR7xjHWejM99nq8C-1Cr/view?usp=sharing)
+### Links Referênciais
+  [Link para o vídeo explicativo do projeto no Google Drive](https://drive.google.com/file/d/1JKsdRvCdB2q_VMbhZHf62jj5Rhz8u8Bt/view?usp=sharing)
+  
+  [Link para projeto completo do sistema de monitoramento de lavoura no Tinkercad](https://www.tinkercad.com/things/6uTXEucWTuQ?sharecode=RMWx58ar_Whe7_91iB_0qKqRf0W010BUapQFVVjEeeo)
+  
+  [Link para projeto completo do sistema de verificação de estoque no Tinkercad](https://www.tinkercad.com/things/geOhexWHpS9?sharecode=BIoCpqW3dmfEDWlKwqCt5g-eHpTiZguKVU_gv1iYtxQ)

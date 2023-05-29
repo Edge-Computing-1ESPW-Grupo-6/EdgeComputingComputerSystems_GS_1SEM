@@ -18,7 +18,7 @@ O projeto tem como objetivo atuar no problema que nos foi proposto, a fome no mu
 Garantir as condições ideais para o consumo, e evitar o desperdício de alimentos, é essencial para, além de combater a fome, proteger a saúde, promover a sustentabilidade, economizar recursos e minimizar o impacto ambiental, e é uma responsabilidade de indivíduos, empresas, governos e toda a sociedade.
 
 <div align=center>
-<img src="imagens/Identificacao_Problema.png" widht="225" height="450">
+<img src="imagens/Identificacao_Problema.png" widht="200" height="400">
 </div>
   
 ___
@@ -168,7 +168,7 @@ ___
 O objetivo da solução que idealizamos é melhor ilustrar a respeito da situação da fome em diferentes regiões, e informar adequadamente os agentes responsáveis por ajudar nesta causa, como ONGs e órgãos públicos, de modo que as ações sociais voltadas ao problema sejam mais eficientes e, consequentemente, a fome seja combatida de melhor forma, com as regiões mais necessitadas recebendo um auxílio adequado para sua situação
 
 <div align=center>
-<img src="imagens/Resultados_Esperados.png"  widht="225" height="450">
+<img src="imagens/Resultados_Esperados.png"  widht="200" height="400">
 </div>
 
 ___

@@ -53,7 +53,7 @@ Através do Arduino podemos construir circuitos que são capazes de fornecer inf
 
 ___
 ### Desenvolvimento do projeto
-O projeto foi desaenvolvido através de pesquisas por métodos de aplicação da tecnologia na solução, ou amenização, do problema da fome. Utilizando outros projetos como referência e coletando dados de outras IAs generativas, fomos capazes de elaborar nosso projeto e idealizar sua aplicação.   
+O projeto foi desenvolvido através de pesquisas por métodos de aplicação da tecnologia na solução, ou amenização, do problema da fome. Utilizando outros projetos como referência e coletando dados de outras IAs generativas, fomos capazes de elaborar nosso projeto e idealizar sua aplicação.   
 
 Já as simulações dos circuitos de hardware que auxiliariam no projeto, foram desenvolvidas utilizando a aplicação web Autodesk Tinkercad, para a elaboração de protótipos e testagem de circuitos e códigos, e a plataforma Arduino, juntamente com seus componentes físicos, para a montagem efetiva dos circuitos.
 ___
